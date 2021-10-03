@@ -42,7 +42,8 @@ body{
     background: linear-gradient(to right bottom, var(--Soft-violet), var(--Soft-blue));
     background-repeat: no-repeat;
 background-size: cover;
-height: 100vh;
+/*height: 100vh;*/
+    min-height:100vh;
 background-position: center;
 }
 h1{
@@ -92,7 +93,7 @@ margin-top: 60px;
     opacity: 5;
     height: 600px;
 }
-.img{
+::after{
   margin-top: 180px;
   position: absolute;
   left: 20%;
